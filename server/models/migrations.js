@@ -1,6 +1,5 @@
 import Debug from 'debug';
 import moment from 'moment';
-import pool from './database';
 import utils from '../helpers/common';
 import { addAccount, addUser } from './queries';
 
