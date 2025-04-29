@@ -84,31 +84,25 @@ const createTables = () => {
   pool.query(users)
     .then((response) => {
       debug(response);
-      pool.end();
     })
     .catch((error) => {
       debug(error);
-      pool.end();
     });
 
   pool.query(accounts)
     .then((response) => {
       debug(response);
-      pool.end();
     })
     .catch((error) => {
       debug(error);
-      pool.end();
     });
 
   pool.query(transactions)
     .then((response) => {
       debug(response);
-      pool.end();
     })
     .catch((error) => {
       debug(error);
-      pool.end();
     });
 };
 
